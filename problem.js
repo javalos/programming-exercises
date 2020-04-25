@@ -23,13 +23,13 @@ function daysUntilDate(day, month, year) {
   return daysUntil1JanuaryOfYear(year) + daysOfYear(day, month, year);
 }
 
-function howManyDaysHaveYouLived(day, month, year) {
+function daysSince(day, month, year) {
   return daysUntilDate(24, 4, 2020) - daysUntilDate(day, month, year);
 }
 
 
-console.log(howManyDaysHaveYouLived(18, 1, 1989));
-console.log(howManyDaysHaveYouLived(4, 1, 2002));
-console.log(howManyDaysHaveYouLived(14, 4, 1987));
+console.log(daysSince(18, 1, 1989));
+console.log(daysSince(4, 1, 2002));
+console.log(daysSince(14, 4, 1987));
 
 
