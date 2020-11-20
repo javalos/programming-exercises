@@ -31,5 +31,3 @@ function daysSince(day, month, year) {
 console.log(daysSince(18, 1, 1989));
 console.log(daysSince(4, 1, 2002));
 console.log(daysSince(14, 4, 1987));
-
-
